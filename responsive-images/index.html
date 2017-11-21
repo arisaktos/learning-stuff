@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <h1>My picture</h1>
+   
+   
+<!--   use picture element for art direction situation-->
+  <h2>Picture element:</h2>
+   <picture>
+     <source srcset="img/big-img.jpg" media="(min-width: 1200px)">
+      <source srcset="img/mid-img.jpg" media="(min-width: 760px)">
+       <img src="img/small-img.jpg" alt="my picture">
+   </picture>
+   
+   <h2>Same ratio image:</h2>
+   <img srcset="img/small-img2.jpg 570w, img/mid-img2.jpg 1200w, img/big-img2.jpg 1920w" alt="my pic">
+   
+ 
+</body>
+</html>
