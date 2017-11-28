@@ -39,7 +39,7 @@ gulp.task('copySpriteCSS', ['createSprite'], function(){
     .pipe(gulp.dest('./app/assets/styles/modules'));
 });
 
-gulp.task('endClean', ['copySpriteGraphic','copySpriteCSS ' ], function(){
+
 gulp.task('endClean', ['copySpriteGraphic','copySpriteCSS' ], function(){
     return del('./app/temp/sprite');
 });
