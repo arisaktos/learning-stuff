@@ -27,7 +27,7 @@
         
        
     }
-    
+     
     &__logo{
         position: absolute;
         top: 0;
@@ -43,7 +43,7 @@
            transform: translateX(0);
             
             .site-header--dark & {
-                transform: scale(.57);
+                transform: scale(.56);
             }
         }
         

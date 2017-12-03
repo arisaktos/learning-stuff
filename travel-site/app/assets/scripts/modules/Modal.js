@@ -6,7 +6,7 @@ class Modal{
         this.modal = $('.modal');
         this.closeModalButton = $('.modal__close');
         
-        this.events();
+        this.events(); 
     }
     
     events(){
